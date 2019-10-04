@@ -1,0 +1,5 @@
+		
+This creates a problem called asymmetry 
+When we override the method equals in the person, it only compares it using name but 
+when we override it in the person job it also compares it with a salary so when we’re comparing person
+ and person with a job, they will never b equal because person doesn’t have a salary.
