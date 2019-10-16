@@ -1,0 +1,4 @@
+problem 1: the equals method inside employee accepts Employee object as an argument.now this is okay to compare two employees
+but, there will be a problem when we have to compare employee with an Object type and we have to call the equals method inside the Object class
+thats why it returns false.
+here the contains method inside lists are equal method is calling superclass's equal because we did not properly override equals inside employee

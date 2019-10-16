@@ -1,0 +1,4 @@
+problem 1: here we are using an object as a key to hashmap so we have to follow some rules. we have to make the object immutable but here the object is not immutable
+when we use setVisted to change the object state the generated hasmap will be different so we will always have duplicates.
+
+solution-make the class immutable

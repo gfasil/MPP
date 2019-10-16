@@ -1,0 +1,5 @@
+problem 1: here we didn't override hash code correctly so when the remove duplicate method tries to put an employee in the hashmap,
+first it calculates the hash code using super class's(Object) hashcode method then puts it in the map, next time the same object is inserted into
+the map, the hashcode will be different so same objects will always have differnt key.therefore, the contains key method will always return false.
+so duplicate will still be added to the list.
+solution is to override hash code inside Employee !
